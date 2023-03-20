@@ -1,0 +1,223 @@
+body {
+    height: 100%;
+}
+
+.split {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow-x:hidden;
+}
+.main{
+    display: flex;
+    justify-content:flex-end ;
+    flex-direction: column;
+}
+.container.mainr{
+    height: 700vh;
+    margin:0;
+    padding:0;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color:#c471f5;
+    width:45%;
+    filter:brightness(50%)
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    
+    width:55%;
+    /* overflow-x:visible; */
+    z-index: -999;
+    
+    
+}
+
+/* If you want the content centered horizontally and vertically */
+/* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+svg {
+    width: 250px;
+    height: 250px;
+    background-color:#c471f5;
+    border-radius: 50%;
+    position: absolute;
+    left: 540px;
+    top: 100px;
+    z-index:999;
+}
+.text{
+    margin-left:20px;
+    color:white;
+}
+/* Image One */
+.oti{
+    position:relative;
+    top:550px;
+
+}
+.obi{
+    position:relative;
+    top:550px;
+}
+/* Image two */
+.tbi{
+    position:absolute;
+    top:1150px;
+    
+}
+.tti{
+    position:absolute;
+    top:-1000px;
+    left:350px
+}
+/* Image3 */
+.trbi{
+    position:relative;
+    top:-450px;
+    
+}
+.trti{
+    position:relative;
+    top:630px;
+    
+}
+/* Img Four */
+.fobipb{
+    position: relative;
+    top:-240px;
+    left:-130px;
+}
+.fotibr{
+    position: relative;
+    left:390px;
+    top:-250px;
+}
+.fotifm{
+    position: relative;
+    left:-100px;
+    top:-400px;
+}
+.fotihm{
+    position: relative;
+    left:30px;
+    top:400px;
+}
+.fotibrd{
+    position: relative;
+    left:290px;
+    top:50px;
+}
+/* Img five */
+.fvtikar{
+    position:relative;
+    top:-400px;
+}
+.fvtian{
+    position:relative;
+    top:-800px;
+}
+.fvtikar2{
+    position:relative;
+    left:400px;
+    top:100px;
+}
+.fvtiksn{
+    position: relative;
+    top:200px;
+}
+.fvtidsm{
+    position:relative;
+    top:400px;
+}
+/* Img six */
+.sbi{
+    position:relative;
+    top:530px;
+}
+.svbi{
+    position:relative;
+    left:-65px;
+    top:120px;
+}
+/* Containers */
+
+.one{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    background-color: #C0C0C0;
+
+    
+}
+.two{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    position:relative;
+    background: linear-gradient(181deg, rgb(2, 0, 97) 15%, rgb(97, 149, 219) 158.5%);
+}
+.three{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    background: #150050;
+    display: flex;
+    justify-content: space-around;
+}
+.four{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #282A3A;
+}
+.five{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    background: linear-gradient(110.9deg, rgb(44, 221, 239) 1.1%, rgb(14, 191, 210) 37.6%, rgb(8, 127, 140) 99.2%);
+    padding-left: 65px;
+}
+.six{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    background-image:url("./ScrollAnimation Task Assets/kitchen.png");
+    background-size: cover;
+}
+.seven{
+    width:100%;
+    height:100vh;
+    overflow-y: hidden;
+    background: #5CD85A;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:last baseline;
+    vertical-align:bottom;
+    display: flex;
+    
+    padding-right: 40px;
+}
+.left{
+    overflow-x: visible;
+}
+/* Responsive */
+
